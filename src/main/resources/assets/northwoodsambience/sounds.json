@@ -1,0 +1,305 @@
+{
+  "loon_wail": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:loon_wail/1",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_wail/2",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_wail/3",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_wail/4",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_wail/5",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_wail/6",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_wail/7",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_wail/8",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_wail/9",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_wail/10",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_wail/11",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_wail/12",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.loon"
+  },
+  "loon_tremolo": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:loon_tremolo/1",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.loon"
+  },
+  "loon_yodel": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:loon_yodel/1",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:loon_yodel/2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.loon"
+  },
+  "crickets": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:crickets/1",
+        "stream": true
+      },
+      {
+        "name": "northwoodsambience:crickets/2",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.crickets"
+  },
+  "owl_barred": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:owl_barred/1",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:owl_barred/2",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:owl_barred/3",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:owl_barred/4",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:owl_barred/5",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:owl_barred/6",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:owl_barred/7",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.owl"
+  },
+  "owl_horned": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:owl_horned/1",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:owl_horned/2",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:owl_horned/3",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:owl_horned/4",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:owl_horned/5",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:owl_horned/6",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.owl"
+  },
+  "frog_peeper": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:frog_peeper/1",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:frog_peeper/2",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:frog_peeper/3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.frog"
+  },
+  "frog_croak": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:frog_croak/1",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:frog_croak/2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.frog"
+  },
+  "shore_waves": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:shore_waves/1",
+        "stream": true
+      },
+      {
+        "name": "northwoodsambience:shore_waves/2",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.waves"
+  },
+  "rain_storm": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:rain_storm/1",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.rain"
+  },
+  "rain_roof": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:rain_roof/1",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.rain"
+  },
+  "wind_breeze": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:wind_breeze/1",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.wind"
+  },
+  "wind_foliage": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:wind_foliage/1",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.wind"
+  },
+  "mosquito": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:mosquito/1",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:mosquito/2",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.mosquito"
+  },
+  "gull": {
+    "subtitle": "subtitles.northwoodsambience.gull",
+    "sounds": [
+      {
+        "name": "dsurround:ambient/seagulls/seagulls1",
+        "stream": false,
+        "volume": 0.65
+      },
+      {
+        "name": "dsurround:ambient/seagulls/seagulls2",
+        "stream": false,
+        "volume": 0.65
+      }
+    ]
+  },
+  "eagle": {
+    "subtitle": "subtitles.northwoodsambience.eagle",
+    "sounds": [
+      {
+        "name": "dsurround:ambient/birds/bald_eagle_chirp",
+        "stream": false,
+        "volume": 0.85
+      }
+    ]
+  },
+  "hawk": {
+    "subtitle": "subtitles.northwoodsambience.hawk",
+    "sounds": [
+      {
+        "name": "dsurround:ambient/birds/red_tailed_hawk",
+        "stream": false,
+        "volume": 0.5
+      }
+    ]
+  },
+  "fire_cozy": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:fire_cozy/1",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.fire"
+  },
+  "wood_creak": {
+    "sounds": [
+      {
+        "name": "northwoodsambience:wood_creak/1",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:wood_creak/2",
+        "stream": false
+      },
+      {
+        "name": "northwoodsambience:wood_creak/3",
+        "stream": false
+      }
+    ],
+    "subtitle": "subtitles.northwoodsambience.creak"
+  }
+}

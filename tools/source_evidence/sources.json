@@ -1,0 +1,122 @@
+[
+  {
+    "event": "shore_waves",
+    "file": "dsw4_waves.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Waves.ogg",
+    "author": "Dsw4",
+    "license": "Public domain",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Waves.ogg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  },
+  {
+    "event": "rain_storm",
+    "file": "zidane_rain.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rain.ogg",
+    "author": "ジダネ",
+    "license": "Public domain",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Rain.ogg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  },
+  {
+    "event": "owl_horned",
+    "file": "bushman_owl.mp3",
+    "page": "https://commons.wikimedia.org/wiki/File:Bubo_virginianus_-_Great_Horned_Owl_XC156403.mp3",
+    "author": "Bushman",
+    "license": "CC BY-SA 3.0",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bubo_virginianus_-_Great_Horned_Owl_XC156403.mp3?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+  },
+  {
+    "event": "rain_roof",
+    "file": "ogrebane_roof.mp3",
+    "page": "https://opengameart.org/content/rain-gutter-loop",
+    "author": "Ogrebane",
+    "license": "CC0",
+    "download": "https://opengameart.org/sites/default/files/rain-gutter-loop_0.mp3"
+  },
+  {
+    "event": "frog_croak",
+    "file": "splicesound_frog.mp3",
+    "page": "https://freesound.org/people/SpliceSound/sounds/188195/",
+    "author": "SpliceSound",
+    "license": "CC0",
+    "download": "https://cdn.freesound.org/previews/188/188195_1480854-hq.mp3"
+  },
+  {
+    "event": "frog_peeper",
+    "file": "mdf_peepers.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Springpeepers.ogg",
+    "author": "Mdf; edited by Borisblue",
+    "license": "CC BY-SA 3.0",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Springpeepers.ogg"
+  },
+  {
+    "event": "shore_waves",
+    "file": "trp_gentle_lapping.mp3",
+    "page": "https://freesound.org/people/TRP/sounds/573163/",
+    "author": "TRP",
+    "license": "CC0",
+    "download": "https://cdn.freesound.org/previews/573/573163_97550-hq.mp3"
+  },
+  {
+    "event": "shore_waves",
+    "file": "flyfishing_gentle_waves.mp3",
+    "page": "https://freesound.org/people/TheFlyFishingFilmmaker/sounds/614299/",
+    "author": "TheFlyFishingFilmmaker",
+    "license": "CC0",
+    "download": "https://cdn.freesound.org/previews/614/614299_6501596-hq.mp3"
+  },
+  {
+    "event": "wind_breeze",
+    "file": "fthgurdy_gentle_wind.mp3",
+    "page": "https://freesound.org/people/fthgurdy/sounds/528944/",
+    "author": "fthgurdy",
+    "license": "CC0",
+    "download": "https://cdn.freesound.org/previews/528/528944_3302313-hq.mp3"
+  },
+  {
+    "event": "wind_foliage",
+    "file": "bone666138_wind_trees.mp3",
+    "page": "https://freesound.org/people/bone666138/sounds/520183/",
+    "author": "bone666138",
+    "license": "CC0",
+    "download": "https://cdn.freesound.org/previews/520/520183_285997-hq.mp3"
+  },
+  {
+    "event": "mosquito",
+    "file": "ianfsa_mosquito.mp3",
+    "page": "https://freesound.org/people/IanFSA/sounds/662969/",
+    "author": "IanFSA",
+    "license": "CC0",
+    "download": "https://cdn.freesound.org/previews/662/662969_4287394-hq.mp3"
+  },
+  {
+    "event": "fire_cozy",
+    "file": "aerror_campfire.mp3",
+    "page": "https://freesound.org/people/aerror/sounds/350757/",
+    "author": "aerror",
+    "license": "CC0",
+    "download": "https://cdn.freesound.org/previews/350/350757_2472895-hq.mp3"
+  },
+  {
+    "event": "wood_creak",
+    "file": "rudmer_creak_v2.mp3",
+    "page": "https://freesound.org/people/Rudmer_Rotteveel/sounds/502504/",
+    "author": "Rudmer_Rotteveel",
+    "license": "CC0",
+    "download": "https://cdn.freesound.org/previews/502/502504_4921277-hq.mp3"
+  },
+  {
+    "event": "wood_creak",
+    "file": "rudmer_creak_v3.mp3",
+    "page": "https://freesound.org/people/Rudmer_Rotteveel/sounds/502511/",
+    "author": "Rudmer_Rotteveel",
+    "license": "CC0",
+    "download": "https://cdn.freesound.org/previews/502/502511_4921277-hq.mp3"
+  },
+  {
+    "event": "wood_creak",
+    "file": "rudmer_creak_v5.mp3",
+    "page": "https://freesound.org/people/Rudmer_Rotteveel/sounds/506660/",
+    "author": "Rudmer_Rotteveel",
+    "license": "CC0",
+    "download": "https://cdn.freesound.org/previews/506/506660_4921277-hq.mp3"
+  }
+]

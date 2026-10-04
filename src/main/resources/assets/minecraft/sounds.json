@@ -1,0 +1,127 @@
+{
+  "entity.fish.swim": {
+    "sounds": [
+      {
+        "name": "entity/fish/swim1",
+        "volume": 0.3
+      },
+      {
+        "name": "entity/fish/swim2",
+        "volume": 0.3
+      },
+      {
+        "name": "entity/fish/swim3",
+        "volume": 0.3
+      },
+      {
+        "name": "entity/fish/swim4",
+        "volume": 0.3
+      },
+      {
+        "name": "entity/fish/swim5",
+        "volume": 0.3
+      },
+      {
+        "name": "entity/fish/swim6",
+        "volume": 0.3
+      },
+      {
+        "name": "entity/fish/swim7",
+        "volume": 0.3
+      }
+    ],
+    "replace": true
+  },
+  "entity.cod.flop": {
+    "sounds": [
+      {
+        "name": "entity/fish/flop1",
+        "volume": 0.09
+      },
+      {
+        "name": "entity/fish/flop2",
+        "volume": 0.09
+      },
+      {
+        "name": "entity/fish/flop3",
+        "volume": 0.09
+      },
+      {
+        "name": "entity/fish/flop4",
+        "volume": 0.09
+      }
+    ],
+    "subtitle": "subtitles.entity.cod.flop",
+    "replace": true
+  },
+  "entity.salmon.flop": {
+    "sounds": [
+      {
+        "name": "entity/fish/flop1",
+        "pitch": 0.8,
+        "volume": 0.09
+      },
+      {
+        "name": "entity/fish/flop2",
+        "pitch": 0.8,
+        "volume": 0.09
+      },
+      {
+        "name": "entity/fish/flop3",
+        "pitch": 0.8,
+        "volume": 0.09
+      },
+      {
+        "name": "entity/fish/flop4",
+        "pitch": 0.8,
+        "volume": 0.09
+      }
+    ],
+    "subtitle": "subtitles.entity.salmon.flop",
+    "replace": true
+  },
+  "entity.puffer_fish.flop": {
+    "sounds": [
+      {
+        "name": "entity/pufferfish/flop1",
+        "volume": 0.09
+      },
+      {
+        "name": "entity/pufferfish/flop2",
+        "volume": 0.09
+      },
+      {
+        "name": "entity/pufferfish/flop3",
+        "volume": 0.09
+      },
+      {
+        "name": "entity/pufferfish/flop4",
+        "volume": 0.09
+      }
+    ],
+    "subtitle": "subtitles.entity.puffer_fish.flop",
+    "replace": true
+  },
+  "entity.tropical_fish.flop": {
+    "sounds": [
+      {
+        "name": "entity/fish/flop1",
+        "volume": 0.09
+      },
+      {
+        "name": "entity/fish/flop2",
+        "volume": 0.09
+      },
+      {
+        "name": "entity/fish/flop3",
+        "volume": 0.09
+      },
+      {
+        "name": "entity/fish/flop4",
+        "volume": 0.09
+      }
+    ],
+    "subtitle": "subtitles.entity.tropical_fish.flop",
+    "replace": true
+  }
+}

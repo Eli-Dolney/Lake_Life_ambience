@@ -1,0 +1,35 @@
+[
+  {
+    "location": "northwoodsambience:owl_barred",
+    "soundEvent": "northwoodsambience:owl_barred",
+    "volume": 0.55,
+    "pitch": {
+      "min": 0.99,
+      "max": 1.01
+    }
+  },
+  {
+    "location": "northwoodsambience:owl_horned",
+    "soundEvent": "northwoodsambience:owl_horned",
+    "volume": 0.45,
+    "pitch": {
+      "min": 0.99,
+      "max": 1.01
+    }
+  },
+  {
+    "location": "northwoodsambience:forest_day",
+    "soundEvent": "dsurround:biome.forest.pine",
+    "volume": 0.18
+  },
+  {
+    "location": "northwoodsambience:meadow_day",
+    "soundEvent": "dsurround:biome.plains",
+    "volume": 0.15
+  },
+  {
+    "location": "northwoodsambience:bog_day",
+    "soundEvent": "dsurround:biome.bog",
+    "volume": 0.18
+  }
+]

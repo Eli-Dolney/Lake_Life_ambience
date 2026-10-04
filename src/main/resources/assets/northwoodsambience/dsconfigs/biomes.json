@@ -1,0 +1,94 @@
+[
+  {
+    "biomeSelector": "OVERWORLD && (TAIGA || CONIFEROUS || FOREST || BIRCH_FOREST || DECIDUOUS || SWAMP || RIVER || PLAINS || MOUNTAIN || OCEAN || BEACH || SHALLOW_OCEAN || DEEP_OCEAN) && !(JUNGLE || HOT || DRY || SAVANNA || SPOOKY)",
+    "_comment": "Northwoods owns wind, lake birds and crickets here; replace generic biome layers to avoid duplicates.",
+    "priority": 150,
+    "clearSounds": true,
+    "moodSoundChance": "0.003"
+  },
+  {
+    "biomeSelector": "OVERWORLD && (TAIGA || CONIFEROUS || FOREST || BIRCH_FOREST || DECIDUOUS) && !(SWAMP || JUNGLE || HOT || DRY || SAVANNA || MOUNTAIN || SPOOKY)",
+    "_comment": "Northwoods forest: pine woods by day, crickets from dusk, silent snowy woods in winter",
+    "priority": 151,
+    "acoustics": [
+      {
+        "factory": "dsurround:biome.forest.silent",
+        "conditions": "weather.isNotRaining() && weather.canWaterFreeze() && !diurnal.isNight()"
+      },
+      {
+        "factory": "northwoodsambience:owl_barred",
+        "conditions": "weather.isNotRaining() && diurnal.isNight()",
+        "type": "mood",
+        "weight": 12
+      },
+      {
+        "factory": "northwoodsambience:owl_horned",
+        "conditions": "weather.isNotRaining() && diurnal.isNight()",
+        "type": "mood",
+        "weight": 3
+      },
+      {
+        "factory": "dsurround:wolf",
+        "conditions": "weather.isNotRaining() && diurnal.isNight() && global.allowScary()",
+        "type": "mood",
+        "weight": 3
+      },
+      {
+        "factory": "dsurround:coyote",
+        "conditions": "weather.isNotRaining() && diurnal.isNight()",
+        "type": "mood",
+        "weight": 3
+      },
+      {
+        "factory": "dsurround:woodpecker",
+        "conditions": "weather.isNotRaining() && diurnal.isDay()",
+        "type": "mood",
+        "weight": 8
+      },
+      {
+        "factory": "dsurround:turtledove",
+        "conditions": "weather.isNotRaining() && (diurnal.isSunrise() || diurnal.isDay())",
+        "type": "mood",
+        "weight": 5
+      },
+      {
+        "factory": "dsurround:crow",
+        "conditions": "weather.isNotRaining() && diurnal.isDay()",
+        "type": "mood",
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "biomeSelector": "OVERWORLD && PLAINS && !(HOT || DRY || SAVANNA || MOUNTAIN)",
+    "_comment": "Northwoods meadows and farm fields",
+    "priority": 151,
+    "acoustics": [
+      {
+        "factory": "dsurround:coyote",
+        "conditions": "weather.isNotRaining() && diurnal.isNight()",
+        "type": "mood",
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "biomeSelector": "OVERWORLD && SWAMP && !(HOT || JUNGLE)",
+    "_comment": "Northwoods bog and marsh",
+    "priority": 151,
+    "acoustics": [
+      {
+        "factory": "northwoodsambience:owl_barred",
+        "conditions": "weather.isNotRaining() && diurnal.isNight()",
+        "type": "mood",
+        "weight": 8
+      }
+    ]
+  },
+  {
+    "biomeSelector": "@clouds",
+    "priority": 150,
+    "clearSounds": true,
+    "_comment": "Suppress generic altitude wind; Northwoods uses actual terrain exposure."
+  }
+]

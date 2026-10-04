@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+version = '0.5.0'
+group = 'com.example.northwoods'
+base { archivesName = 'northwoodsambience' }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    mavenCentral()
+    exclusiveContent {
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.11.4'
+    // Dynamic Surroundings 0.4.5 and Architectury 13.0.11 for NeoForge 1.21.1, dev runs only
+    runtimeOnly 'maven.modrinth:dynamicsurroundingsfabric:IzWXE0ve'
+    runtimeOnly 'maven.modrinth:architectury-api:1IiqEQGl'
+}
+
+neoForge {
+    version = '21.1.235'
+    runs {
+        client {
+            client()
+            if (project.hasProperty('soundLab')) {
+                programArguments.addAll('--quickPlaySingleplayer', 'Northwoods Sound Lab')
+                if (project.hasProperty('verifyLab')) jvmArgument('-Dnorthwoods.verifyLab=true')
+            }
+        }
+        server { server() }
+    }
+    mods { northwoodsambience { sourceSet sourceSets.main } }
+    unitTest { enable(); testedMod = mods.northwoodsambience }
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('runServer') { standardInput = System.in }
+
+// Carry sound attribution with every distributed JAR.
+tasks.named('processResources') { from('CREDITS.md'); from('LICENSE') }
+
+tasks.named('test') { useJUnitPlatform() }

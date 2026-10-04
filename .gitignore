@@ -1,0 +1,15 @@
+.gradle/
+build/
+run/
+out/
+raw_sounds/*
+!raw_sounds/README.md
+__pycache__/
+*.pyc
+logs/
+*.log
+.DS_Store
+*.iml
+.idea/
+.vscode/
+tools/source_evidence/*.html

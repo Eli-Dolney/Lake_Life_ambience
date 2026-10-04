@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT (code); audio licenses in CREDITS.md"
+[[mods]]
+modId="northwoodsambience"
+version="0.5.0"
+displayName="Northwoods Ambience"
+description='''Minnesota cabin and lake ambience for Dynamic Surroundings: responsive doorways, soft real fires, rare wooden creaks, roof rain, loons, gentle water, woodland insects and exposed ridge wind.'''
+[[dependencies.northwoodsambience]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.235,21.2)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.northwoodsambience]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.northwoodsambience]]
+modId="dsurround"
+type="required"
+versionRange="[0.4.5,)"
+ordering="AFTER"
+side="CLIENT"
